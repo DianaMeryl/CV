@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,500&display=swap');
+
+body{
+    background-color: #F7F8E0;
+    color:#0B0B3B;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+                  Geneva, Verdana, sans-serif; */
+}
+.avatar{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+.info-text{
+    margin: 0 auto;
+}
+.info-text h1{
+    margin-bottom: 20px;
+}
+.info h1 {
+   color:black;  
+   font-weight: bold;
+   text-decoration: none;
+   font-style: italic;
+   text-transform:none;
+   letter-spacing: 1px;
+   word-spacing: 10px;
+}
+.info h3 {
+    color:black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform:none;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    margin: 0;
+ }
+ .container{
+    max-width: 70%;
+    margin: auto;
+ }
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2{
+    margin-bottom: 20px;
+    text-align: left;
+}
+.bg-blue{
+    background: #EFFBFB;
+}
+.bg-red{
+    background: #FBEFFB;
+}
+.bg-green{
+    background: #F2FBEF;
+}
+.bg-orange{
+    background: #FBF5EF;
+}
+.bg-purple{
+    background: #F5EFFB;
+}
